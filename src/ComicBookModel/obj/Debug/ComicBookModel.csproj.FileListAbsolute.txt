@@ -1,0 +1,10 @@
+C:\Users\Milenas Cruz\Source\Repos\ComicBookModel\src\ComicBookModel\bin\Debug\ComicBookModel.exe.config
+C:\Users\Milenas Cruz\Source\Repos\ComicBookModel\src\ComicBookModel\bin\Debug\ComicBookModel.exe
+C:\Users\Milenas Cruz\Source\Repos\ComicBookModel\src\ComicBookModel\bin\Debug\ComicBookModel.pdb
+C:\Users\Milenas Cruz\Source\Repos\ComicBookModel\src\ComicBookModel\bin\Debug\EntityFramework.dll
+C:\Users\Milenas Cruz\Source\Repos\ComicBookModel\src\ComicBookModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Milenas Cruz\Source\Repos\ComicBookModel\src\ComicBookModel\bin\Debug\EntityFramework.xml
+C:\Users\Milenas Cruz\Source\Repos\ComicBookModel\src\ComicBookModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Milenas Cruz\Source\Repos\ComicBookModel\src\ComicBookModel\obj\Debug\ComicBookModel.csprojResolveAssemblyReference.cache
+C:\Users\Milenas Cruz\Source\Repos\ComicBookModel\src\ComicBookModel\obj\Debug\ComicBookModel.exe
+C:\Users\Milenas Cruz\Source\Repos\ComicBookModel\src\ComicBookModel\obj\Debug\ComicBookModel.pdb
