@@ -17,21 +17,25 @@ namespace ComicBookModel
             {
                 context.Database.Log = (message) => Debug.WriteLine(message);
 
-                var comicBooks = context.ComicBooks
-                    .Include(cb => cb.Series)
-                    .Include(cb => cb.Artists.Select(a => a.Artist))
-                    .Include(cb => cb.Artists.Select(a => a.Role))
-                    .ToList();
+                var comicBookId = 1;
+                var comicBook1 = context.ComicBooks.Find(comicBookId);
+                var comicBook2 = context.ComicBooks.Find(comicBookId);
 
-                foreach (var comicBook in comicBooks)
-                {
-                    var artistRoleNames = comicBook.Artists
-                        .Select(x => $"{x.Artist.Name} - {x.Role.Name}").ToList();
-                    var artistRolesDisplayText = string.Join(", ", artistRoleNames);
+                //var comicBooks = context.ComicBooks
+                //    .Include(cb => cb.Series)
+                //    .Include(cb => cb.Artists.Select(a => a.Artist))
+                //    .Include(cb => cb.Artists.Select(a => a.Role))
+                //    .ToList();
 
-                    Console.WriteLine(comicBook.DisplayText);
-                    Console.WriteLine(artistRolesDisplayText);
-                }
+                //foreach (var comicBook in comicBooks)
+                //{
+                //    var artistRoleNames = comicBook.Artists
+                //        .Select(x => $"{x.Artist.Name} - {x.Role.Name}").ToList();
+                //    var artistRolesDisplayText = string.Join(", ", artistRoleNames);
+
+                //    Console.WriteLine(comicBook.DisplayText);
+                //    Console.WriteLine(artistRolesDisplayText);
+                //}
                 Console.ReadLine();
             }
         }
